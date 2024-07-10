@@ -29,9 +29,21 @@ body::before {
   z-index: -1;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
   body::before {
     background-attachment: fixed;
+  }
+}
+
+@media(min-width: 600px){
+  .container{
+    width: 80%;
+  }
+}
+
+@media(max-width: 600px){
+  .container{
+    width: 100%;
   }
 }
 
@@ -127,7 +139,7 @@ h6 {
   background: #18d26e;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
   #header h1 {
     font-size: 36px;
   }
@@ -182,7 +194,7 @@ h6 {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #header.header-top {
     height: 60px;
   }
@@ -282,7 +294,7 @@ h6 {
   top: 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 300px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -364,7 +376,7 @@ section .container {
   padding: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   section {
     top: 120px;
   }
@@ -978,7 +990,7 @@ section .container {
   padding: 15px 0 0 0;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
   .portfolio-details .portfolio-info {
     padding-top: 20px;
   }
@@ -1172,7 +1184,7 @@ section .container {
   z-index: 999999;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 600px) {
   .credits {
     text-align: center;
     padding: 10px;
